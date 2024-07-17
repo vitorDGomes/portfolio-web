@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(68.15deg, #000000 16.62%, #1028af 85.61%);
+    color: rgb(0, 0, 0);
+}
+
+header{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(0, 17, 255);
+    transition: 0.3s all;
+}
+
+
+
+section#portfolio {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+section#portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projeto img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.projeto-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.projeto-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.projeto-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.projeto-info a {
+    text-decoration: none;
+    color: #3744f3;
+    font-weight: bold;
+}
+
+.projeto-info a:hover {
+    text-decoration: underline;
+}

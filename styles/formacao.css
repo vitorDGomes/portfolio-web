@@ -1,0 +1,76 @@
+/*estilizacao formação e idiomas*/
+body{
+    background: linear-gradient(68.15deg, #000000 16.62%, #1028af 85.61%);
+    color: rgb(0, 0, 0);
+}
+
+#nome{
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(0, 17, 255);
+    transition: 0.3s all;
+}
+
+
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#formacao, section#idiomas {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+section#formacao h2, section#idiomas h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.educacao, .linguagem {
+    margin-bottom: 20px;
+}
+
+.educacao h3, .linguagem h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.educacao p, .linguagem p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
